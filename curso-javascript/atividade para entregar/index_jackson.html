@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades para entregar</title>
+    <link rel="stylesheet" href="../atividade para entregar/index_jackson.css">
+</head>
+<body>
+    <header>
+        <div>
+        <h1>
+            <label id="mensagem"> </label>
+        </h1>
+        </div>
+    </header>
+    <main>
+        <div class="at2">
+            <h3>Calculadora ao Cubo</h3>
+            <label id=""> Digite um valor  :</label>
+            <input type="text" id="valor_real" placeholder="Digite um valor">
+<br>
+            <label id="">O resultado elevado ao Cubo é :</label>
+            <input type="text" id="valor_ao_cubo" placeholder="O resultado do calculo é :" disabled="disabled">
+<br>
+            <button onclick="cubo()">Calcular </button>
+            
+        </div>
+
+        <div class="at3">
+            <h3>Calculadora de conversão Fahrenheit (F) para Celsius (C)</h3>
+            <br>
+
+            <label id="">Digite um valor para converter de (F) para (C)</label>
+            <br>
+
+            <input type="text" id="Fahrenheit" placeholder="Digite um valor em (F)">
+            <br>
+
+            <label for="">O valor em graus Celsius é : </label>
+            <br>
+
+            <input type="text" id="celsius" placeholder="Valor em graus Celsius" disabled="disabled">
+            <br>
+
+            <button onclick="converter()">Calcular</button>
+        </div>
+        <div class="at4">
+            <h3> Calculadora de area - Triangulo.</h3>
+            <br>
+            <label for="">Digite o valor da base do triangulo :</label>
+            <br>
+            <input type="text" id="base" placeholder="Base do Triangulo">
+            <br>
+            <label for="">Digite o valor da altura do triangulo :</label>
+            <br>
+            <input type="text" id="altura" placeholder="Altura do Triangulo">
+<br><br>
+            <label > Area do Triangulo é :</label>
+            <br>
+            <input type="text" id="areaTriangulo" placeholder="Area do Triangulo" disabled="disabled">
+            <br>
+            <button onclick="areaTriangulo()"> Calcular</button>
+        </div>
+
+        <div class="at5">
+            <h3>Calculadora de Area e Perimetro de uma circunferencia.</h3>
+            <br>
+            <label for="">Digite o valor do Raio da circunferencia :</label>
+            <br>
+            <input type="text" id="raioCincun" placeholder="Raio da circunferencia">
+            <br><br>
+            <label for="">O valor da área da circunferencia é :</label>
+            <br>
+            <input type="text" id="areaCircun" placeholder="Area da circunferencia" disabled="disabled">
+            <br><br>
+
+            <label for="">O valor da Perimetro da circunferencia é :</label>
+            <br>
+            <input type="text" id="perimCircun" placeholder="Perimetro da circunferencia" disabled="disabled">
+            <br>
+            <button onclick="calcRaio()">Calcular</button>
+
+
+
+        </div>
+
+        <div class="at6">
+            <h3>Calculadora de Desconto</h3>
+            <br>
+            <label for="">Digite o valor do produto :</label>
+            <br>
+            <input type="text" id="valorProd" placeholder="Digite o valor do produto">
+            <br><br>
+            
+
+            <label for="">O desconto fornecido foi de :</label>
+            <br>
+            <input type="text" id="desconto" placeholder="Desconto" disabled="disabled">
+            <br>
+            <button onclick="desconto()"> Calcular </button>
+        </div>
+
+        <div class="at7">
+
+            <h3>Calculadora de idade.</h3>
+            <br>
+            <label for="">Digite sua data de nascimento</label>
+            <br>
+            <input type="text" id="nascimento" placeholder="Digite sua data de nascimento">
+            <br>
+            <label for="">Você é de maior ou menor de idade?</label>
+            <br>
+            <div>
+                <p>Sua idade é : <span id="idadeCalc"></span></p>
+                <p id="idadeM"></p>
+
+            </div>
+            <br>
+            <button onclick="nascimento()">Calcular</button>
+        </div>
+
+        <div class="at8">
+            <h3>Calculadora KM</h3>
+            <br>
+            <input type="text" id="reais"> <button onclick="calculoComb()">Calcular</button>
+            <br>
+            <div>
+                <p> <span id="quantidadeLit"></span></p>
+            </div>
+        </div>
+    </main>
+
+
+    
+
+    <script src="index_jackson.js"></script>
+</body>
+</html>

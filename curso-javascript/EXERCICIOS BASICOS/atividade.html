@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medias - Alunos</title>
+</head>
+<body>
+    <h1 style="position:relative; margin-left: 38%;">Calculadora de media</h1><br>
+
+    <label for="">Digite seu Nome e Sobrenome: </label>
+    <input type="text" id="nomeAluno" placeholder="Digite seu Nome e Sobrenome" >
+    <br><br>
+
+    <label for="">Digite a sua Primeira Nota - P1: </label>
+    <input type="text" id="p1" placeholder="Digite a Sua Primeira Nota">
+    <br><br>
+    
+    <label for="">Digite a sua Segunda Nota - P2: </label>
+    <input type="text" id="p2" placeholder="Digite a Sua Segunda Nota">  
+
+    <button class="btnCalc" id="calcMedia" onclick="calcular(this.id)">Calcular</button>
+    <br><br>    
+
+    <br><br>
+    <label id="nome" >   </label>
+    <label for="">Sua media é: </label>
+    <input type="text" id="media" value="Media" disabled="disabled">
+
+    <label for="">Você está: </label>
+    <input type="text" id="aprovadoReprovado" value="Aprovado ou Reprovado" disabled="disabled">
+
+
+    <script src="atividade.js"></script>
+    
+</body>
+</html>
