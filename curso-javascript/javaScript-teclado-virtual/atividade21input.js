@@ -29,7 +29,7 @@ function carregarTypeRadio() {
 }
 function carregarTypeparagrafo() {
 
-    for (var i = 1; i <= 30.len; i++) {
+    for (var i = 1; i <= 20; i++) {
         var paragrafo = document.createElement("p");
         paragrafo.setAttribute("class", "text");
         paragrafo.setAttribute("id", "paragrafo" + i);
