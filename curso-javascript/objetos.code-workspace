@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../curso udemy"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "cursoDevSistemas",
+		"workbench.colorTheme": "Abyss",
+		"workbench.preferredDarkColorTheme": "Abyss",
+		"workbench.preferredHighContrastColorTheme": "Abyss",
+		"workbench.preferredHighContrastLightColorTheme": "Abyss",
+		"workbench.preferredLightColorTheme": "Abyss"
+	},
+	"extensions": {
+		"recommendations": [
+			"ritwickdey.liveserver"
+		]
+	}
+}
